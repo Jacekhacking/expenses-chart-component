@@ -9,3 +9,12 @@ body {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
+#my-chart {
+  height: 200px;
+  --heading-size: 3rem;
+}
+#my-chart caption {
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1.25rem;
+}
