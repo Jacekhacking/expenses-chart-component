@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./components/footer";
 import styled from "styled-components";
+import Logo from "./images/logo.svg";
 
 const ComponentWrapper = styled.div`
   padding: 40px;
@@ -14,6 +15,11 @@ const ComponentWrapper = styled.div`
 const RedContainer = styled.div`
   background-color: hsl(10, 79%, 65%);
   color: white;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
 
 function App() {
@@ -21,7 +27,13 @@ function App() {
     <>
       <ComponentWrapper>
         <div>
-          <RedContainer>My balance $921.48</RedContainer>
+          <RedContainer>
+            <div>
+              <p>My balance</p>
+              $921.48
+            </div>{" "}
+            <img src={Logo} alt="logo" />
+          </RedContainer>
           <div>
             <h2>Spending - Last 7 days</h2>
             mon tue wed thu fri sat sun
