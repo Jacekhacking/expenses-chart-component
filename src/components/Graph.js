@@ -2,7 +2,7 @@ const Graph = () => {
   return (
     <>
       <table
-        class="charts-css column show-heading show-labels show-primary-axis data-spacing-10"
+        class="charts-css column show-heading show-labels  data-spacing-10"
         id="my-chart"
       >
         <caption>Spending - Last 7 days</caption>

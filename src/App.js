@@ -60,7 +60,7 @@ function App() {
                 width: "360px",
                 margin: " 5px 20px",
                 paddingTop: "30px",
-                borderTop: "2px solid black",
+                borderTop: "2px solid hsl(27, 66%, 92%)",
                 justifyContent: "space-between",
                 color: "hsl(28, 10%, 53%)",
               }}
